@@ -1,0 +1,14 @@
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\bin\Debug\net6.0\RtanWorld.exe
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\bin\Debug\net6.0\RtanWorld.deps.json
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\bin\Debug\net6.0\RtanWorld.runtimeconfig.json
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\bin\Debug\net6.0\RtanWorld.dll
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\bin\Debug\net6.0\RtanWorld.pdb
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\obj\Debug\net6.0\RtanWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\obj\Debug\net6.0\RtanWorld.AssemblyInfoInputs.cache
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\obj\Debug\net6.0\RtanWorld.AssemblyInfo.cs
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\obj\Debug\net6.0\RtanWorld.csproj.CoreCompileInputs.cache
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\obj\Debug\net6.0\RtanWorld.dll
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\obj\Debug\net6.0\refint\RtanWorld.dll
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\obj\Debug\net6.0\RtanWorld.pdb
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\obj\Debug\net6.0\RtanWorld.genruntimeconfig.cache
+C:\Users\lee001\Desktop\my\RtanWorld\RtanWorld\obj\Debug\net6.0\ref\RtanWorld.dll
