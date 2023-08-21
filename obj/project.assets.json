@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lee001\\Desktop\\my\\RtanWorld\\RtanWorld\\RtanWorld.csproj",
+      "projectUniqueName": "C:\\Users\\lee001\\Desktop\\github\\RtanWorld\\RtanWorld.csproj",
       "projectName": "RtanWorld",
-      "projectPath": "C:\\Users\\lee001\\Desktop\\my\\RtanWorld\\RtanWorld\\RtanWorld.csproj",
+      "projectPath": "C:\\Users\\lee001\\Desktop\\github\\RtanWorld\\RtanWorld.csproj",
       "packagesPath": "C:\\Users\\lee001\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lee001\\Desktop\\my\\RtanWorld\\RtanWorld\\obj\\",
+      "outputPath": "C:\\Users\\lee001\\Desktop\\github\\RtanWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lee001\\AppData\\Roaming\\NuGet\\NuGet.Config",

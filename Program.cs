@@ -5,47 +5,17 @@ namespace RtanWorld
     internal class Program
     {
         private static Character player;
+       
 
         static void Main(string[] args)
         {
-            playerInfo();
             
-            //인벤토리창
-            //상태보기창
-            Console.Clear();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("스파르타 마을에 오신 여러분을 환영합니다.");
-            Console.WriteLine("이곳에서 던전으로 들어가지 전 활동을 할 수 있습니다.");
-            Console.WriteLine("-------------------------------------");
-            Console.WriteLine("1. 상태보기");
-            Console.WriteLine("2. 인벤토리");
-            Console.WriteLine("-------------------------------------");
-            Console.WriteLine("원하시는 행동의 번호를 입력해주세요");
-
-
-            string input = Console.ReadLine();
-
-            bool inputCheck = int.TryParse(input, out var inputNum);
-            if (inputCheck)
-            {
-                if (inputNum == 1)
-                {
-                    caracterInfo();
-                }
-                else if (inputNum == 2)
-                {
-                    Inventory();
-                }
-                else
-                {
-                   
-
-                }
-            }
+            gameStart();//메인화면 문구
+        
         }
-        static void caracterInfo()
+        static void CaracterInfo()
         {
+            playerInfo();
             Console.Clear();
             Console.WriteLine("상태보기");
             Console.WriteLine("캐릭터의 정보가 표시됩니다.\n\n\n\n");
@@ -57,17 +27,53 @@ namespace RtanWorld
             Console.WriteLine("소지골드 : {0}",player.Gold ); 
             Console.WriteLine("\n\n0. 나가기\n\n\n");
             Console.WriteLine("원하시는 행동을 입력해주세요");
-            
+            Input();
 
+
+        }
+        static void Input()
+        {
+            string input = Console.ReadLine();
+
+            if (int.TryParse(input, out int number))
+            {
+                if (number == 1)
+                {
+                    CaracterInfo();
+                }
+                else if (number == 2)
+                {
+                    Inventory();
+                }
+
+                else if (number == 0) 
+                {
+                    gameStart();
+                }                               
+            }
         }
         static void Inventory() 
         {
             Console.Clear();
         }
-        static void playerInfo() 
+        static void playerInfo()
         {
             
             player = new Character("LEE", "궁수", 10, 20, 5, 100, 1000);
+        }
+        static void gameStart()
+        {
+            Console.Clear();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("스파르타 마을에 오신 여러분을 환영합니다.");
+            Console.WriteLine("이곳에서 던전으로 들어가지 전 활동을 할 수 있습니다.");
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine("1. 상태보기");
+            Console.WriteLine("2. 인벤토리");
+            Console.WriteLine("-------------------------------------");
+            Console.WriteLine("원하시는 행동의 번호를 입력해주세요");
+            Input();
         }
     }
     public class Character
@@ -91,6 +97,7 @@ namespace RtanWorld
             Gold = gold;
 
         }
+        
     }
 
 }
